@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg">
-            <img src="/Screenshot_2025-08-15_at_3.35.08_PM.png" alt="UT Austin Chemical Engineering Building" className="w-full h-auto rounded-lg" />
+            <img src="/uab.jpg" alt="UT Austin" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </div>
