@@ -21,10 +21,10 @@ const AboutPage = () => {
         </ul>
         <h2 className="text-2xl font-semibold mb-4">Our History</h2>
         <p className="text-gray-700">
-          Established in 2015, the ChE Undergraduate Advisory Board has been
+          Established in 2024, the ChE Undergraduate Advisory Board has been
           instrumental in implementing positive changes within the department.
-          From curriculum improvements to enhanced student resources, our board
-          continues to work diligently to ensure that UT Austin remains at the
+          From curriculum improvements to enhanced student resources, our members
+          continue to work diligently to ensure that UT Austin remains at the
           forefront of chemical engineering education.
         </p>
       </div>

@@ -16,10 +16,6 @@ const Footer = () => {
               Contact
             </Link>
           </div>
-          <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} UT Austin Chemical Engineering
-            Undergraduate Advisory Board
-          </p>
         </div>
       </div>
     </footer>;

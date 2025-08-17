@@ -1,40 +1,46 @@
 import React from 'react';
 const BoardMembersPage = () => {
   const boardMembers = [{
-    name: 'Alex Johnson',
-    role: 'President',
-    year: 'Senior',
-    bio: "Chemical engineering major with a focus on sustainable energy. Alex leads the board's initiatives and represents student interests to faculty.",
+    name: 'Titus Loftin',
+    role: 'Director',
+    year: 'Sophomore',
+    bio: "Chemical engineering major with a focus on sustainable energy. Titus leads the board's initiatives and represents student interests to faculty.",
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }, {
-    name: 'Taylor Smith',
-    role: 'Vice President',
-    year: 'Junior',
-    bio: 'Specializing in biochemical engineering. Taylor coordinates events and manages board operations.',
+    name: 'Jai Kumaravel',
+    role: 'Director',
+    year: 'Sophomore',
+    bio: 'Specializing in biochemical engineering. Jai coordinates events and manages board operations.',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }, {
-    name: 'Jordan Lee',
-    role: 'Secretary',
+    name: 'Radu Variu',
+    role: 'Events Coordinator',
     year: 'Junior',
-    bio: 'Focusing on process engineering. Jordan documents meetings and manages communications.',
+    bio: 'Focusing on process engineering. Radu documents meetings and manages communications.',
     image: 'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }, {
-    name: 'Morgan Wilson',
-    role: 'Treasurer',
+    name: 'Rishita Jain',
+    role: 'Communications Officer',
     year: 'Senior',
-    bio: "Interested in materials science. Morgan manages the board's budget and financial planning.",
+    bio: "Interested in materials science. Rishita manages the board's budget and financial planning.",
     image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }, {
-    name: 'Casey Rivera',
+    name: 'Jad Issa',
     role: 'Events Coordinator',
     year: 'Sophomore',
-    bio: 'Passionate about environmental engineering. Casey plans and executes board events and activities.',
+    bio: 'Passionate about environmental engineering. Jad plans and executes board events and activities.',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }, {
-    name: 'Riley Thompson',
+    name: 'Junyan He',
     role: 'Outreach Coordinator',
-    year: 'Junior',
-    bio: 'Focusing on process control. Riley manages relationships with industry partners and alumni.',
+    year: 'Sophomore',
+    bio: 'Focusing on process control. Junyan manages relationships with industry partners and alumni.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
+  }, {
+    name: 'Venus Kumar',
+    role: 'Creative Designer',
+    year: 'Sophomore',
+    bio: 'Focusing on process control. Junyan manages relationships with industry partners and alumni.',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80'
   }];
   return <div className="container mx-auto px-4 py-12">
