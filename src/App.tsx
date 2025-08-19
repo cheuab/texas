@@ -8,6 +8,13 @@ import BoardMembersPage from './pages/BoardMembersPage';
 import ResourcesPage from './pages/ResourcesPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
+
+
+// This is your app file that sets up the main structure of your application
+// It includes all the different pages and components that make up your app
+// The BrowserRouter component contains the entire application to enable routing
+// The Routes component defines the different routes in your application
+// Each Route component specifies a path for the code to follow when that path is accessed
 export function App() {
   return <BrowserRouter>
       <div className="flex flex-col min-h-screen bg-[#FFF8F0]">

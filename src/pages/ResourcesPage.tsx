@@ -1,6 +1,8 @@
 import React from 'react';
 import { BookOpenIcon, CalendarIcon, GraduationCapIcon, BriefcaseIcon } from 'lucide-react';
 const ResourcesPage = () => {
+  // the const resourceCategories is basically your list of resources, 
+  // each category has a title, an icon, and a list of resources with names and links that you can change
   const resourceCategories = [{
     title: 'Academic Resources',
     icon: <BookOpenIcon className="w-8 h-8 text-[#BF5700]" />,
@@ -67,6 +69,9 @@ const ResourcesPage = () => {
     }]
   }];
   return <div className="container mx-auto px-4 py-12">
+
+       {/* This is the main content of the ResourcesPage component, it's weird that its below the
+       other code, but its just the title */}
       <h1 className="text-3xl font-bold text-[#BF5700] mb-6">Resources</h1>
       <p className="text-gray-700 mb-8">
         Access a variety of resources to support your academic and professional
