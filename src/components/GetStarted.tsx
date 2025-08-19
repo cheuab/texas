@@ -12,9 +12,9 @@ const GetInvolved = () => {
             <a href="/join" className="inline-block bg-[#BF5700] text-white px-4 py-2 rounded">Sign Up</a>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow text-center">
-            <h3 className="text-xl font-semibold mb-2">Volunteer</h3>
-            <p className="mb-4">Help organize events, support our mission, and make a difference on campus.</p>
-            <a href="/volunteer" className="inline-block bg-[#BF5700] text-white px-4 py-2 rounded">Volunteer</a>
+            <h3 className="text-xl font-semibold mb-2">Keep updated</h3>
+            <p className="mb-4">Join our Monthly Newsletter to stay informed on our progress and exciting things happening in the department.</p>
+            <a href="/volunteer" className="inline-block bg-[#BF5700] text-white px-4 py-2 rounded">Newsletter</a>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow text-center">
             <h3 className="text-xl font-semibold mb-2">Attend Events</h3>
