@@ -21,7 +21,7 @@ const BoardMembersPage = () => {
   }, {
     name: 'Rishita Jain',
     role: 'Communications Officer',
-    year: 'Senior',
+    year: 'Sophomore',
     bio: ".",
     image: ''
   }, {
