@@ -5,16 +5,16 @@ const ResourcesPage = () => {
     title: 'Academic Resources',
     icon: <BookOpenIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
-      name: 'Course Planning Guide',
+      name: 'Learning Resources',
       link: '#'
     }, {
       name: 'Study Materials',
       link: '#'
     }, {
-      name: 'Tutoring Services',
+      name: 'Registration Information',
       link: '#'
     }, {
-      name: 'Research Opportunities',
+      name: 'Getting around Campus',
       link: '#'
     }]
   }, {
@@ -24,20 +24,20 @@ const ResourcesPage = () => {
       name: 'Upcoming Events',
       link: '#'
     }, {
-      name: 'Workshop Schedule',
+      name: 'Latest News',
       link: '#'
     }, {
-      name: 'Social Activities',
+      name: 'Department Events',
       link: '#'
     }, {
-      name: 'Industry Tours',
+      name: 'Other Org Events',
       link: '#'
     }]
   }, {
     title: 'Career Development',
     icon: <BriefcaseIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
-      name: 'Internship Opportunities',
+      name: 'Internship and Research Opportunities',
       link: '#'
     }, {
       name: 'Resume Templates',
@@ -46,23 +46,23 @@ const ResourcesPage = () => {
       name: 'Interview Preparation',
       link: '#'
     }, {
-      name: 'Industry Connections',
+      name: 'Tips and Tricks',
       link: '#'
     }]
   }, {
     title: 'Department Information',
     icon: <GraduationCapIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
-      name: 'Faculty Directory',
+      name: 'Department Website',
       link: '#'
     }, {
-      name: 'Lab Facilities',
+      name: 'Faculty and Staff Directory',
       link: '#'
     }, {
       name: 'Degree Requirements',
       link: '#'
     }, {
-      name: 'Department Policies',
+      name: 'Course Descriptions',
       link: '#'
     }]
   }];
