@@ -8,6 +8,8 @@ import BoardMembersPage from './pages/BoardMembersPage';
 import ResourcesPage from './pages/ResourcesPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
+import Lesson1 from './resources/studymaterials/Lesson1';
+import StudyHome from './resources/studymaterials/StudyHome';
 
 
 // This is your app file that sets up the main structure of your application
@@ -27,6 +29,8 @@ export function App() {
             <Route path="/resources" element={<ResourcesPage />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resources/study-materials" element={<StudyHome />} />
+            <Route path="/resources/study-materials/lesson1" element={<Lesson1 />} />
           </Routes>
         </main>
         <Footer />

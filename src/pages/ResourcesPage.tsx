@@ -8,16 +8,16 @@ const ResourcesPage = () => {
     icon: <BookOpenIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
       name: 'Learning Resources',
-      link: '#'
+      link: '/resources/study-materials'
     }, {
       name: 'Study Materials',
-      link: '#'
+      link: '/resources/study-materials'
     }, {
       name: 'Registration Information',
-      link: '#'
+      link: '/resources/registration'
     }, {
       name: 'Getting around Campus',
-      link: '#'
+      link: '/resources/getting-around'
     }]
   }, {
     title: 'Events & Activities',
