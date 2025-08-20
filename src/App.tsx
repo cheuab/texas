@@ -8,7 +8,7 @@ import BoardMembersPage from './pages/BoardMembersPage';
 import ResourcesPage from './pages/ResourcesPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
-import Lesson1 from './resources/studymaterials/Lesson1';
+import Units from './resources/studymaterials/units';
 import StudyHome from './resources/studymaterials/StudyHome';
 
 
@@ -30,7 +30,7 @@ export function App() {
             <Route path="/news" element={<NewsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/resources/study-materials" element={<StudyHome />} />
-            <Route path="/resources/study-materials/lesson1" element={<Lesson1 />} />
+            <Route path="/resources/study-materials/units" element={<Units />} />
           </Routes>
         </main>
         <Footer />
