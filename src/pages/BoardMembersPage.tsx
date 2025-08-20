@@ -15,6 +15,12 @@ const BoardMembersPage = () => {
   }, {
     name: 'Radu Variu',
     role: 'Events Coordinator',
+    year: 'Sophomore',
+    bio: '',
+    image: ''
+  }, {
+    name: 'Gabriel Jesurum',
+    role: 'Events Coordinator',
     year: 'Junior',
     bio: '',
     image: ''
