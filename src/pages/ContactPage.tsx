@@ -58,7 +58,7 @@ const ContactPage = () => {
               <InstagramIcon className="w-6 h-6 text-[#BF5700] mr-3 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold">Instagram</h3>
-                <a href="#" className="text-[#BF5700] hover:underline">@texas-che-uab</a>
+                <a href="#" className="text-[#BF5700] hover:underline">@texas.che.uab</a>
               </div>
             </div>
             <div>
