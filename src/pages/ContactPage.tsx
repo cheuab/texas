@@ -49,8 +49,8 @@ const ContactPage = () => {
               <MailIcon className="w-6 h-6 text-[#BF5700] mr-3 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <a href="mailto:cheadvisoryboard@utexas.edu" className="text-[#BF5700] hover:underline">
-                  cheadvisoryboard@utexas.edu
+                <a href="mailto:cheuab@che.utexas.edu" className="text-[#BF5700] hover:underline">
+                  cheuab@che.utexas.edu
                 </a>
               </div>
             </div>
