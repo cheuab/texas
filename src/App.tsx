@@ -8,7 +8,6 @@ import BoardMembersPage from './pages/BoardMembersPage';
 import ResourcesPage from './pages/ResourcesPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
-import Units from './resources/studymaterials/units';
 import StudyHome from './resources/studymaterials/StudyHome';
 
 
@@ -30,7 +29,7 @@ export function App() {
             <Route path="/news" element={<NewsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/resources/study-materials" element={<StudyHome />} />
-            <Route path="/resources/study-materials/units" element={<Units />} />
+            <Route path="/resources/study-materials/units" element={<StudyHome />} />
           </Routes>
         </main>
         <Footer />
