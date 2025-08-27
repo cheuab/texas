@@ -18,11 +18,11 @@ const Hero = () => {
               within our department.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Link to="/about" className="px-6 py-3 bg-[#BF5700] text-white rounded-md hover:bg-[#A64A00] transition-colors">
-                Learn More
+              <Link to="https://forms.gle/fm8kSKvvrW4mR7bS6" className="px-6 py-3 bg-[#BF5700] text-white rounded-md hover:bg-[#A64A00] transition-colors">
+                Join Us
               </Link>
-              <Link to="/contact" className="px-6 py-3 border border-[#BF5700] text-[#BF5700] rounded-md hover:bg-[#FFF0E6] transition-colors">
-                Contact Us
+              <Link to="/about" className="px-6 py-3 border border-[#BF5700] text-[#BF5700] rounded-md hover:bg-[#FFF0E6] transition-colors">
+                Learn More
               </Link>
             </div>
           </div>
