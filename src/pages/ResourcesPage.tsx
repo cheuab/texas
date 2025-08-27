@@ -40,16 +40,16 @@ const ResourcesPage = () => {
     icon: <BriefcaseIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
       name: 'Internship and Research Opportunities',
-      link: '#'
+      link: 'https://enterprise.login.utexas.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2'
     }, {
       name: 'Resume Templates',
-      link: '#'
+      link: 'https://cockrell.utexas.edu/wp-content/uploads/2024/11/2025-ECAC-Resume-Template.pdf'
     }, {
       name: 'Interview Preparation',
-      link: '#'
+      link: 'https://students.engr.utexas.edu/career-resources/interviews'
     }, {
-      name: 'Tips and Tricks',
-      link: '#'
+      name: 'Career Planning',
+      link: 'https://students.engr.utexas.edu/career-resources/career-planning'
     }]
   }, {
     title: 'Department Information',
