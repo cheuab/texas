@@ -8,7 +8,7 @@ const ResourcesPage = () => {
     icon: <BookOpenIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
       name: 'Learning Resources',
-      link: '/resources/study-materials'
+      link: '/resources/studyhome'
     }, {
       name: 'Study Materials',
       link: '/resources/study-materials'

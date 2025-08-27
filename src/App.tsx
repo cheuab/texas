@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 import PracticeProblemsPage from './resources/studymaterials/problems/Questions';
 import Units from './resources/studymaterials/Units';
 import EventsPage from './pages/Events';
+import StudyHome from './resources/studymaterials/StudyHome';
 
 
 // This is your app file that sets up the main structure of your application
@@ -30,6 +31,7 @@ export function App() {
             <Route path="/resources" element={<ResourcesPage />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resources/studyhome" element={<StudyHome />} />
             <Route path="/resources/study-materials" element={<PracticeProblemsPage />} />
             <Route path="/resources/study-materials/units" element={<Units />} />
             <Route path="/events" element={<EventsPage />} />
