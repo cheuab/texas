@@ -20,7 +20,7 @@ const BoardMembersPage = () => {
     image: ''
   }, {
     name: 'Gabriel Jesurum',
-    role: 'Events Coordinator',
+    role: 'Officer of Finance',
     year: 'Junior',
     bio: '',
     image: ''
@@ -32,7 +32,7 @@ const BoardMembersPage = () => {
     image: ''
   }, {
     name: 'Jad Issa',
-    role: 'Events Coordinator',
+    role: 'Outreach Coordinator',
     year: 'Sophomore',
     bio: '',
     image: ''
