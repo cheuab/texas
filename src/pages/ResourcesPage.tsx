@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpenIcon, CalendarIcon, GraduationCapIcon, BriefcaseIcon } from 'lucide-react';
+import { link } from 'fs';
 const ResourcesPage = () => {
   // the const resourceCategories is basically your list of resources, 
   // each category has a title, an icon, and a list of resources with names and links that you can change
@@ -18,7 +19,11 @@ const ResourcesPage = () => {
     }, {
       name: 'Getting around Campus',
       link: '/resources/getting-around'
-    }]
+    }, {
+      name: 'Textbook Request',
+      link: '#'
+    }
+  ]
   }, {
     title: 'Events & Activities',
     icon: <CalendarIcon className="w-8 h-8 text-[#BF5700]" />,
