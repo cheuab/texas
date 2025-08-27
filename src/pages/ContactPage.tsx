@@ -61,13 +61,6 @@ const ContactPage = () => {
                 <a href="#" className="text-[#BF5700] hover:underline">@texas.che.uab</a>
               </div>
             </div>
-            <div>
-              <h3 className="font-semibold mb-2">Newsletter Signup</h3>
-              <form className="flex flex-col md:flex-row gap-2">
-                <input type="email" placeholder="Your email" className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#BF5700]" />
-                <button type="submit" className="px-4 py-2 bg-[#BF5700] text-white rounded-md hover:bg-[#A64A00] transition-colors">Subscribe</button>
-              </form>
-            </div>
           </div>
         </div>
       </div>

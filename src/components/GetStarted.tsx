@@ -14,7 +14,7 @@ const GetInvolved = () => {
           <div className="bg-gray-100 p-6 rounded-lg shadow text-center">
             <h3 className="text-xl font-semibold mb-2">Keep updated</h3>
             <p className="mb-4">Join our Slack to stay informed on exciting things happening in the department.</p>
-            <a href="https://join.slack.com/t/texasuab/shared_invite/zt-2uv8xbwno-q5ySBfUtWfNWl2RCA3mTVQ" className="inline-block bg-[#BF5700] text-white px-4 py-2 rounded">Newsletter</a>
+            <a href="https://join.slack.com/t/texasuab/shared_invite/zt-2uv8xbwno-q5ySBfUtWfNWl2RCA3mTVQ" className="inline-block bg-[#BF5700] text-white px-4 py-2 rounded">Slack</a>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow text-center">
             <h3 className="text-xl font-semibold mb-2">Attend Events</h3>

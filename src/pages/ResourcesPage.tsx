@@ -56,16 +56,16 @@ const ResourcesPage = () => {
     icon: <GraduationCapIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
       name: 'Department Website',
-      link: '#'
+      link: 'https://che.utexas.edu'
     }, {
       name: 'Faculty and Staff Directory',
-      link: '#'
+      link: 'https://che.utexas.edu/people/faculty'
     }, {
       name: 'Degree Requirements',
-      link: '#'
+      link: 'https://catalog.utexas.edu/undergraduate/engineering/degrees-and-programs/bs-chemical-engineering/'
     }, {
       name: 'Course Descriptions',
-      link: '#'
+      link: 'https://catalog.utexas.edu/general-information/coursesatoz/che/'
     }]
   }];
   return <div className="container mx-auto px-4 py-12">
