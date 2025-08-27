@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { subjects } from "./lessonData";
 import { Link } from "react-router-dom";
 
 const StudyHome: React.FC = () => {
 	const [search, setSearch] = useState("");
 	const [openClassIdx, setOpenClassIdx] = useState<number | null>(null);
+	const userClickedRef = useRef(false);
 
 	// Flatten all classes from all subjects
 	const allClasses = subjects.flatMap((subject) =>
@@ -25,6 +26,10 @@ const StudyHome: React.FC = () => {
 
 	// Auto-expand course card if searching for a lesson
 	useEffect(() => {
+		if (userClickedRef.current) {
+			userClickedRef.current = false;
+			return;
+		}
 		if (search.trim() === "") {
 			setOpenClassIdx(null);
 			return;
@@ -76,7 +81,10 @@ const StudyHome: React.FC = () => {
 					>
 						<button
 							className="text-lg font-bold text-[#BF5700] mb-2 focus:outline-none hover:underline text-left"
-							onClick={() => setOpenClassIdx(openClassIdx === idx ? null : idx)}
+							onClick={() => {
+								userClickedRef.current = true;
+								setOpenClassIdx(openClassIdx === idx ? null : idx);
+							}}
 						>
 							{course.name}
 							<span className="ml-2 text-sm text-gray-500">
