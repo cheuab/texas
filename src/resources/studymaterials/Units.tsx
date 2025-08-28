@@ -26,7 +26,7 @@ const Lesson1: React.FC = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Definitions</h2>
         <p>
-          <strong>Units</strong> are standardized quantities used to specify measurements (e.g., meter, kilogram, second). <strong>Dimensions</strong> refer to the physical nature of a quantity (e.g., length, mass, time). For example, velocity has the dimension of length/time (L/T) and can be measured in units such as m/s or ft/s. In equations, dimensions are often represented by symbols: [L] for length, [M] for mass, [T] for time.
+          <strong>Units</strong> are standardized quantities used to specify measurements (e.g., meter, kilogram, second). <strong>Dimensions</strong> refer to the physical nature of a quantity (e.g., length, mass, time). For example, velocity has the dimension of length/time (L/T) and can be measured in units such as m/s or ft/s. In equations, dimensions are often represented by symbols: [L] for length, [M] for mass, [T] for time. Temperature is a bit different, sometimes [K] or θ.
         </p>
         <p className="mt-2">
           <strong>Example:</strong> The area of a rectangle is given by <span className="font-mono">A = l × w</span>, where both <span className="font-mono">l</span> and <span className="font-mono">w</span> have the dimension [L]. Thus, <span className="font-mono">[A] = [L] × [L] = [L²]</span>.
