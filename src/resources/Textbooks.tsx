@@ -25,7 +25,7 @@ const Textbooks = () => {
 					</h1>
 					<p className="text-gray-700 mb-6">
 						Browse available textbooks for Chemical Engineering courses. Search by
-						title, author, course, or description.
+						title, author, course, or description. If you need any of the textbooks, please send us an email.
 					</p>
 					<div className="mb-8">
 						<input
@@ -40,14 +40,14 @@ const Textbooks = () => {
 						{filteredBooks.map((book, idx) => (
 							<div
 								key={idx}
-								className="bg-white rounded shadow p-4 flex flex-col md:flex-row md:items-center md:gap-6"
+								className="bg-white rounded shadow p-4 flex flex-col md:flex-row md:items-center md:gap-6 border border-[#FFE5CC]"
 							>
 								<div className="flex-1">
 									<h2 className="text-lg font-bold text-[#BF5700] mb-1">
 										{book.title}
 									</h2>
 									<p className="text-gray-800 text-sm">
-										Author: {book.author}
+										Author: <span className="font-medium">{book.author}</span>
 									</p>
 									<p className="text-gray-600 text-sm">
 										Edition: {book.edition}
@@ -55,20 +55,9 @@ const Textbooks = () => {
 									<p className="text-gray-600 text-sm">
 										Course: {book.course}
 									</p>
-									<p className="text-gray-700 text-xs mt-1">
+									<p className="text-gray-700 text-xs mt-1 italic">
 										{book.description}
 									</p>
-								</div>
-								<div className="mt-2 md:mt-0 md:w-32 text-center">
-									{book.available ? (
-										<span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded font-semibold text-xs">
-											Available
-										</span>
-									) : (
-										<span className="inline-block px-3 py-1 bg-red-100 text-red-700 rounded font-semibold text-xs">
-											Not Available
-										</span>
-									)}
 								</div>
 							</div>
 						))}

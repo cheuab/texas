@@ -2,37 +2,62 @@ export const textbooks = [
   {
     title: "Elementary Principles of Chemical Processes",
     author: "Felder & Rousseau",
-    edition: "4th Edition",
+    edition: "3rd Edition",
+    course: "CHE 210, CHE 317",
+  },
+  {
+    title: "Introduction to Material and Energy Balances",
+    author: "Reklaitis",
+    edition: "1st Edition",
     course: "CHE 317",
-    description:
-      "A foundational text for chemical engineering students covering material and energy balances.",
-    available: true,
   },
   {
-    title: "Transport Processes and Separation Process Principles",
-    author: "Geankoplis",
-    edition: "5th Edition",
-    course: "CHE 353",
-    description:
-      "Covers fluid mechanics, heat and mass transfer, and separation processes.",
-    available: false,
-  },
-  {
-    title: "Chemical Engineering Thermodynamics",
-    author: "Smith, Van Ness & Abbott",
-    edition: "7th Edition",
-    course: "CHE 348",
-    description:
-      "Comprehensive coverage of thermodynamics for chemical engineers.",
-    available: true,
-  },
-  {
-    title: "Introduction to Chemical Engineering Computing",
-    author: "Beers",
+    title: "Transport Phenomena",
+    author: "Bird, Stewart & Lightfoot",
     edition: "2nd Edition",
-    course: "CHE 210",
-    description:
-      "Focuses on computational tools and techniques for chemical engineering.",
-    available: true,
+    course: "CHE 319",
   },
+  {
+    title: "Modeling in Transport Phenomena",
+    author: "Tosun",
+    edition: "2nd Edition",
+    course: "CHE 319",
+    description: "Not a required textbook, but a very useful tool.",
+  },
+  {
+    title: "Engineering and Chemical Thermodynamics",
+    author: "Koretsky",
+    edition: "2nd Edition",
+    course: "CHE 322",
+  },
+  {
+    title: "Probability and Statistics for Engineering and the Sciences",
+    author: "Devore",
+    edition: "9th Edition",
+    course: "CHE 353k",
+  },
+  {
+    title: "Numerical Methods with Chemical Engineering Applications",
+    author: "Dorfman and Daoutidis",
+    edition: "1st Edition",
+    course: "CHE 348",
+  },
+  {
+    title: "Unit Operations of Chemical Engineering",
+    author: "McCabe, Smith & Harriott",
+    edition: "5th & 7th Edition",
+    course: "CHE 354, CHE 363",
+  },
+  {
+    title: "Process Dynamics and Control",
+    author: "Seborg, Edgar & Mellichamp",
+    edition: "4th Edition",
+    course: "CHE 360",
+  },
+  {
+    title: "Elements of Chemical Reaction Engineering",
+    author: "H. Scott Fogler",
+    edition: "5th Edition",
+    course: "CHE 372",
+  }
 ];
