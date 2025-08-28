@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { textbooks } from "./textdata";
 
@@ -17,7 +16,6 @@ const Textbooks = () => {
 
 	return (
 		<div className="flex flex-col min-h-screen bg-[#FFF8F0]">
-			<Header />
 			<main className="flex-grow container mx-auto px-4 py-12">
 				<div className="max-w-3xl mx-auto">
 					<h1 className="text-3xl font-bold text-[#BF5700] mb-2">
