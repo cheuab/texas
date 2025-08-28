@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import { textbooks } from "./textdata";
 
 const Textbooks = () => {
@@ -67,7 +67,6 @@ const Textbooks = () => {
 					</div>
 				</div>
 			</main>
-			<Footer />
 		</div>
 	);
 };
