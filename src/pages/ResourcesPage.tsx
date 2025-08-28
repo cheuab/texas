@@ -21,7 +21,7 @@ const ResourcesPage = () => {
       link: '/resources/getting-around'
     }, {
       name: 'Textbook Request',
-      link: '#'
+      link: '/resources/textbooks'
     }
   ]
   }, {
