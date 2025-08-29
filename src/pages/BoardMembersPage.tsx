@@ -57,7 +57,15 @@ const BoardMembersPage = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {boardMembers.map((member, index) => <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src={member.image} alt={member.name} className="w-full h-64 object-cover object-center" />
+            <div className="w-full h-64 flex items-center justify-center bg-white">
+              {/* Clock SVG as a placeholder for 'coming soon' */}
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="30" stroke="#BF5700" strokeWidth="4" fill="#FFF8F0" />
+                <circle cx="32" cy="32" r="3" fill="#BF5700" />
+                <rect x="30" y="18" width="4" height="18" rx="2" fill="#BF5700" />
+                <rect x="32" y="32" width="14" height="4" rx="2" fill="#BF5700" transform="rotate(45 32 32)" />
+              </svg>
+            </div>
             <div className="p-6">
               <h2 className="text-xl font-bold text-gray-800">{member.name}</h2>
               <p className="text-[#BF5700] font-medium">{member.role}</p>
