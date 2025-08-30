@@ -57,11 +57,7 @@ const StudyHome: React.FC = () => {
 	const safeLessons = (lessons: any[]) =>
 		lessons.map((lesson) => ({
 			...lesson,
-			path: lesson.path
-				? isPdf(lesson.path)
-					? `/pdf-viewer?file=${lesson.path}`
-					: lesson.path
-				: "#",
+			path: lesson.path ? lesson.path : "#",
 		}));
 
 	return (
@@ -124,12 +120,23 @@ const StudyHome: React.FC = () => {
 										<span className="text-gray-700 mb-1 text-sm">
 											{lesson.description}
 										</span>
-										<Link
-											to={lesson.path}
-											className="inline-block px-3 py-1 bg-[#BF5700] text-white rounded hover:bg-[#a64a00] transition-colors text-xs font-medium w-fit"
-										>
-											View Lesson
-										</Link>
+										{isPdf(lesson.path) ? (
+											<a
+												href={lesson.path}
+												target="_blank"
+												rel="noopener noreferrer"
+												className="inline-block px-3 py-1 bg-[#BF5700] text-white rounded hover:bg-[#a64a00] transition-colors text-xs font-medium w-fit"
+											>
+												View PDF
+											</a>
+										) : (
+											<Link
+												to={lesson.path}
+												className="inline-block px-3 py-1 bg-[#BF5700] text-white rounded hover:bg-[#a64a00] transition-colors text-xs font-medium w-fit"
+											>
+												View Lesson
+											</Link>
+										)}
 									</li>
 								))}
 							</ul>
