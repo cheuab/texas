@@ -181,9 +181,9 @@ export const subjects = [
 				name: "ChE 354: Transport Processes",
 				lessons: [
 					{
-						title: "Dimensional Analysis",
+						title: "Dimensional Analysis and Scale-Up",
 						path: "/resources/study-materials/dimensions",
-						description: "Learn about dimensionless numbers and Buckingham Pi.",
+						description: "Learn about dimensionless numbers, scaling, and Buckingham Pi.",
 					},
 					{
 						title: "Fluid Statics",
