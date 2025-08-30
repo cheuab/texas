@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { subjects } from "./lessonData";
 import { Link } from "react-router-dom";
 
+const isPdf = (path: string) => path && path.endsWith('.pdf');
+
 const StudyHome: React.FC = () => {
 	const [search, setSearch] = useState("");
 	const [openClassIdx, setOpenClassIdx] = useState<number | null>(null);
@@ -53,7 +55,14 @@ const StudyHome: React.FC = () => {
 
 	// Helper for lesson paths
 	const safeLessons = (lessons: any[]) =>
-		lessons.map((lesson) => ({ ...lesson, path: lesson.path || "#" }));
+		lessons.map((lesson) => ({
+			...lesson,
+			path: lesson.path
+				? isPdf(lesson.path)
+					? `/pdf-viewer?file=${lesson.path}`
+					: lesson.path
+				: "#",
+		}));
 
 	return (
 		<div className="min-h-screen w-full bg-[#FFF8F0] py-12 px-4">
