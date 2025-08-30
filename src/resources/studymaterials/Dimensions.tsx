@@ -143,6 +143,24 @@ const Dimensions: React.FC = () => {
         <p>By expressing the drag force in terms of these dimensionless groups, we can analyze the problem more easily
          and apply the results to different scales and conditions.</p>
       </section>
+
+        {/* Scale-Up */}
+        <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">Scale-Up</h2>
+            <p>When scaling systems, maintaining similarity in dimensionless numbers 
+                ensures that the scaled system behaves like the original. 
+                This is crucial in engineering applications such as chemical reactors, 
+                fluid flow systems, and heat exchangers. By keeping key dimensionless groups constant, we can 
+                predict performance and behavior across different scales.</p>
+        </section>
+
+        {/* Recap */}
+        <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">Recap</h2>
+            <p>Dimensional analysis and the Buckingham Pi theorem are essential tools for simplifying complex physical problems. 
+                By identifying dimensionless groups, we can reduce the number of variables and analyze systems more effectively.
+                This approach is particularly useful in scaling up processes, ensuring that the behavior of the system remains consistent across different sizes and conditions.</p>
+        </section>
     </div>
   );
 };
