@@ -126,15 +126,15 @@ const Dimensions: React.FC = () => {
             <li>L: 1 = a + b - 3c - d</li>
             <li>T: -2 = -b - d</li>
           </ul>
-          5. Solve for a, b, c, d (choose two as free variables, e.g. a and c):<br/>
-          <span className="font-mono">b = -2 - d</span><br/>
-          <span className="font-mono">d = 1 - c</span><br/>
-          <span className="font-mono">a = 1 - b + 3c + d</span><br/>
-          6. Substitute and simplify to get the dimensionless groups:. <br/>
-          <span className="font-mono">[M·L/T²] = [L]^(1 - b + 3c + d) [L/T]^b [M/L³]^c [M/(L·T)]^d</span><br/>
-
+          5. Solve for a, b, c:<br/>
+          <span className="font-mono">a = 1 - d</span><br/>
+          <span className="font-mono">b = 2 - d</span><br/>
+          <span className="font-mono">c = 1 - d</span><br/>
+          6. Substitute and simplify to get the dimensionless groups: <br/>
+          <span className="font-mono">F<sub>d</sub> = D^(1-d) V^(-2-d) ρ^(1-d) μ^d</span><br/>
+          7. Move integers to one side and group letters(d) on one side: <br/>
+          <span className="font-mono">F<sub>d</sub> / (ρVD) = (ρVD/μ)^d</span><br/>
         </p>
-        <p> We want to say F <sub> d</sub> </p>
         <p>One possible set of dimensionless groups is:</p>
         <ul className="list-disc list-inside">
           <li>Reynolds Number <span className="font-mono">Re = ρVD/μ</span></li>
