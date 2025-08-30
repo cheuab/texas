@@ -84,6 +84,7 @@ export const subjects = [
                     },
                     {
                         title: "First law of Thermodynamics",
+						path: "/resources/study-materials/FirstLaw",
                         description: "What the first law has to do with what we're doing.",
                     },
                     {
