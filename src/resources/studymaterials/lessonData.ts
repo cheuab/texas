@@ -181,8 +181,13 @@ export const subjects = [
 				name: "ChE 354: Transport Processes",
 				lessons: [
 					{
-						title: "Dimensional Analysis and Similitude",
+						title: "Dimensional Analysis",
+						path: "/resources/study-materials/dimensions",
 						description: "Learn about dimensionless numbers and Buckingham Pi.",
+					},
+					{
+						title: "Fluid Statics",
+						description: "Learn about fluids at rest.",
 					}
 				],
 			},
