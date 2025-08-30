@@ -1,3 +1,6 @@
+import path from "path";
+import { title } from "process";
+
 export const subjects = [
 	{
 		name: "Lower Division ChE",
@@ -146,6 +149,11 @@ export const subjects = [
 			{
 				name: "ChE 322: Thermodynamics",
 				lessons: [
+					{
+						title: "First law of Thermodynamics",
+						path: "/resources/study-materials/FirstLaw",
+						description: "What is the First Law, reversible processes, and state functions.",
+					},
 				],
 			},
             {
@@ -171,6 +179,10 @@ export const subjects = [
             {
 				name: "ChE 354: Transport Processes",
 				lessons: [
+					{
+						title: "Dimensional Analysis and Similitude",
+						description: "Learn about dimensionless numbers and Buckingham Pi.",
+					}
 				],
 			},
             {
