@@ -41,7 +41,6 @@ export function App() {
             <Route path="/resources/registration" element={<Registration />} />
             <Route path="/resources/textbooks" element={<Textbooks />} />
             <Route path="/resources/study-materials/firstlaw" element={<FirstLaw />} />
-            <Route path="/resources/study-materials/dimensions" element={<Dimensions />} />
           </Routes>
         </main>
         <Footer />
