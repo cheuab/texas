@@ -187,6 +187,7 @@ export const subjects = [
 					},
 					{
 						title: "Fluid Statics",
+						path: "/lessons/Fluid_Statics.pdf",
 						description: "Learn about fluids at rest.",
 					}
 				],
