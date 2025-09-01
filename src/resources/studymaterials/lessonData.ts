@@ -10,7 +10,7 @@ export const subjects = [
 				lessons: [
 					{
 						title: "Units and Dimensions",
-						path: "/resources/study-materials/units",
+						path: "/lessons/Units_210.pdf",
 						description:
 							"A review of units and dimensions.",
 					},
@@ -84,7 +84,7 @@ export const subjects = [
                     },
                     {
                         title: "First law of Thermodynamics",
-						path: "/resources/study-materials/FirstLaw",
+						path: "/lessons/1st_Law.pdf",
                         description: "What the first law has to do with what we're doing.",
                     },
                     {
@@ -152,7 +152,7 @@ export const subjects = [
 				lessons: [
 					{
 						title: "First law of Thermodynamics",
-						path: "/resources/study-materials/FirstLaw",
+						path: "/lessons/1st_Law.pdf",
 						description: "What is the First Law, reversible processes, and state functions.",
 					},
 				],
