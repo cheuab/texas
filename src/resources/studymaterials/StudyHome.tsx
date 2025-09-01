@@ -115,12 +115,12 @@ const StudyHome: React.FC = () => {
 										<span className="text-gray-700 mb-1 text-sm">
 											{lesson.description}
 										</span>
-										<Link
-											to={lesson.path}
+										<button
 											className="inline-block px-3 py-1 bg-[#BF5700] text-white rounded hover:bg-[#a64a00] transition-colors text-xs font-medium w-fit"
+											onClick={() => window.open('/Units_and_Dimensions.pdf', '_blank')}
 										>
-											View Lesson
-										</Link>
+											View PDF
+										</button>
 									</li>
 								))}
 							</ul>

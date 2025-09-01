@@ -1,5 +1,6 @@
-import { Parentheses } from "lucide-react";
 import React from "react";
+import { InlineMath, BlockMath } from "react-katex";
+import "katex/dist/katex.min.css";
 
 const Dimensions: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const Dimensions: React.FC = () => {
         <h2 className="text-2xl font-semibold mb-2">Key Concepts</h2>
         <ul className="list-disc list-inside">
           <li>Fundamental and Derived Units</li>
-        <li>Dimensionless Groups</li>
+          <li>Dimensionless Groups</li>
           <li>Buckingham Pi Theorem</li>
           <li>Scale-Up</li>
         </ul>
@@ -91,54 +92,54 @@ const Dimensions: React.FC = () => {
           The Buckingham Pi theorem is a key principle in dimensional analysis 
           that provides a systematic way to reduce the number of variables in a problem 
           by identifying dimensionless groups. The theorem states that if you have a 
-          physical problem with <span className="font-mono">n</span> independent variables and <span className="font-mono">k</span> fundamental dimensions, you can 
-          form <span className="font-mono">n - k + 1</span> independent dimensionless groups (π terms).
+          physical problem with <InlineMath math="n" /> independent variables and <InlineMath math="k" /> fundamental dimensions, you can 
+          form <InlineMath math="n - k + 1" /> independent dimensionless groups (π terms).
         </p>
         <hr className="my-8" />
-        <p>Here's an example: Suppose you are studying the drag force <span className="font-mono">F<sub>d</sub></span> on a sphere moving through a fluid. 
+        <p>Here's an example: Suppose you are studying the drag force <InlineMath math="F_d" /> on a sphere moving through a fluid. 
         The drag force depends on the following variables:</p>
         <ul className="list-disc list-inside">
-          <li>Diameter of the sphere <span className="font-mono">D</span> [L]</li>
-          <li>Velocity of the sphere <span className="font-mono">V</span> [L/T]</li>
-          <li>Density of the fluid <span className="font-mono">ρ</span> [M/L³]</li>
-          <li>Viscosity of the fluid <span className="font-mono">μ</span> [M/(L·T)]</li>
+          <li>Diameter of the sphere <InlineMath math="D" /> [L]</li>
+          <li>Velocity of the sphere <InlineMath math="V" /> [L/T]</li>
+          <li>Density of the fluid <InlineMath math="\rho" /> [M/L³]</li>
+          <li>Viscosity of the fluid <InlineMath math="\mu" /> [M/(L·T)]</li>
         </ul>
-        <p>
-          So this is saying you have <span className="font-mono">F<sub>d</sub> &prop; D<sup>a</sup> V<sup>b</sup> &rho;<sup>c</sup> &mu;<sup>d</sup></span> (where a, b, c, d are exponents to be determined).<br/>
-        
-          1. List dimensions of each variable:<br/>
-          <ul className="list-disc list-inside">
-            <li><span className="font-mono">F<sub>d</sub></span>: [M·L/T²]</li>
-            <li><span className="font-mono">D</span>: [L]</li>
-            <li><span className="font-mono">V</span>: [L/T]</li>
-            <li><span className="font-mono">ρ</span>: [M/L³]</li>
-            <li><span className="font-mono">μ</span>: [M/(L·T)]</li>
-          </ul>
-          2. Set up the dimensional equation:<br/>
-          <span className="font-mono">[M·L/T²] = [L]^a [L/T]^b [M/L³]^c [M/(L·T)]^d</span><br/>
-          3. Expand and collect exponents for each dimension:<br/>
-          <span className="font-mono">M: c + d</span><br/>
-          <span className="font-mono">L: a + b - 3c - d</span><br/>
-          <span className="font-mono">T: -b - d</span><br/>
-          4. Set up system of equations to match dimensions:<br/>
-          <ul className="list-disc list-inside">
-            <li>M: 1 = c + d</li>
-            <li>L: 1 = a + b - 3c - d</li>
-            <li>T: -2 = -b - d</li>
-          </ul>
-          5. Solve for a, b, c:<br/>
-          <span className="font-mono">a = 1 - d</span><br/>
-          <span className="font-mono">b = 2 - d</span><br/>
-          <span className="font-mono">c = 1 - d</span><br/>
-          6. Substitute and simplify to get the dimensionless groups: <br/>
-          <span className="font-mono">F<sub>d</sub> = D^(1-d) V^(-2-d) ρ^(1-d) μ^d</span><br/>
-          7. Move integers to one side and group letters(d) on one side: <br/>
-          <span className="font-mono">F<sub>d</sub> / (ρVD) = (ρVD/μ)^d</span><br/>
-        </p>
+        <BlockMath math={"F_d \propto D^a V^b \rho^c \mu^d"} />
+        <p>(where a, b, c, d are exponents to be determined)</p>
+        <ol className="list-decimal list-inside mb-4">
+          <li>List dimensions of each variable:</li>
+        </ol>
+        <BlockMath math={"[M L T^{-2}] = [L]^a [L T^{-1}]^b [M L^{-3}]^c [M L^{-1} T^{-1}]^d"} />
+        <ol className="list-decimal list-inside mb-4" start={2}>
+          <li>Expand and collect exponents for each dimension:</li>
+        </ol>
+        <BlockMath math={"M: c + d"} />
+        <BlockMath math={"L: a + b - 3c - d"} />
+        <BlockMath math={"T: -b - d"} />
+        <ol className="list-decimal list-inside mb-4" start={3}>
+          <li>Set up system of equations to match dimensions:</li>
+        </ol>
+        <BlockMath math={"1 = c + d"} />
+        <BlockMath math={"1 = a + b - 3c - d"} />
+        <BlockMath math={"-2 = -b - d"} />
+        <ol className="list-decimal list-inside mb-4" start={4}>
+          <li>Solve for a, b, c:</li>
+        </ol>
+        <BlockMath math={"a = 1 - d"} />
+        <BlockMath math={"b = 2 - d"} />
+        <BlockMath math={"c = 1 - d"} />
+        <ol className="list-decimal list-inside mb-4" start={5}>
+          <li>Substitute and simplify to get the dimensionless groups:</li>
+        </ol>
+        <BlockMath math={"F_d = D^{1-d} V^{-2-d} \rho^{1-d} \mu^d"} />
+        <ol className="list-decimal list-inside mb-4" start={6}>
+          <li>Move integers to one side and group letters (d) on one side:</li>
+        </ol>
+        <BlockMath math={"\frac{F_d}{\rho V D} = \left( \frac{\rho V D}{\mu} \right)^d"} />
         <p>One possible set of dimensionless groups is:</p>
         <ul className="list-disc list-inside">
-          <li>Reynolds Number <span className="font-mono">Re = ρVD/μ</span></li>
-          <li>Drag Coefficient <span className="font-mono">C<sub>d</sub> = F<sub>d</sub> / (½ρV²A)</span>, where <span className="font-mono">A</span> is the cross-sectional area of the sphere.</li>
+          <li><InlineMath math={"Re = \frac{\rho V D}{\mu}"} /></li>
+          <li><InlineMath math={"C_d = \frac{F_d}{\frac{1}{2} \rho V^2 A}"} />, where <InlineMath math="A" /> is the cross-sectional area of the sphere.</li>
         </ul>
         <p>By expressing the drag force in terms of these dimensionless groups, we can analyze the problem more easily
          and apply the results to different scales and conditions.</p>
