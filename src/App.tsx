@@ -16,7 +16,6 @@ import Registration from './resources/registration';
 import Textbooks from './resources/Textbooks';
 import FirstLaw from './resources/studymaterials/FirstLaw';
 import Dimensions from './resources/studymaterials/Dimensions';
-import PDFViewer from './resources/PDFViewer';
 
 
 // This is your app file that sets up the main structure of your application
@@ -44,7 +43,6 @@ export function App() {
             <Route path="/resources/textbooks" element={<Textbooks />} />
             <Route path="/resources/study-materials/firstlaw" element={<FirstLaw />} />
             <Route path="/resources/study-materials/dimensions" element={<Dimensions />} />
-            <Route path="/pdf-viewer" element={<PDFViewer />} />
           </Routes>
         </main>
         <Footer />
