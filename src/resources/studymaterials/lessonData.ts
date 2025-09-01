@@ -182,7 +182,7 @@ export const subjects = [
 				lessons: [
 					{
 						title: "Dimensional Analysis and Scale-Up",
-						path: "/resources/study-materials/dimensions",
+						path: "/Units_and_Dimensions.pdf",
 						description: "Learn about dimensionless numbers, scaling, and Buckingham Pi.",
 					},
 					{

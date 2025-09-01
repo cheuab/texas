@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { subjects } from "./lessonData";
 import { Link } from "react-router-dom";
 
+const isPdf = (path: string) => path && path.endsWith('.pdf');
+
 const StudyHome: React.FC = () => {
 	const [search, setSearch] = useState("");
 	const [openClassIdx, setOpenClassIdx] = useState<number | null>(null);
@@ -53,7 +55,10 @@ const StudyHome: React.FC = () => {
 
 	// Helper for lesson paths
 	const safeLessons = (lessons: any[]) =>
-		lessons.map((lesson) => ({ ...lesson, path: lesson.path || "#" }));
+		lessons.map((lesson) => ({
+			...lesson,
+			path: lesson.path ? lesson.path : "#",
+		}));
 
 	return (
 		<div className="min-h-screen w-full bg-[#FFF8F0] py-12 px-4">
@@ -115,12 +120,12 @@ const StudyHome: React.FC = () => {
 										<span className="text-gray-700 mb-1 text-sm">
 											{lesson.description}
 										</span>
-										<button
+										<Link
+											to={lesson.path}
 											className="inline-block px-3 py-1 bg-[#BF5700] text-white rounded hover:bg-[#a64a00] transition-colors text-xs font-medium w-fit"
-											onClick={() => window.open('/Units_and_Dimensions.pdf', '_blank')}
 										>
-											View PDF
-										</button>
+											View Lesson
+										</Link>
 									</li>
 								))}
 							</ul>
