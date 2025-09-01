@@ -15,7 +15,6 @@ import StudyHome from './resources/studymaterials/StudyHome';
 import Registration from './resources/registration';
 import Textbooks from './resources/Textbooks';
 import FirstLaw from './resources/studymaterials/FirstLaw';
-import Dimensions from './resources/studymaterials/Dimensions';
 
 
 // This is your app file that sets up the main structure of your application
