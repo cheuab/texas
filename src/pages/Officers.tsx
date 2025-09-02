@@ -1,5 +1,5 @@
 import React from 'react';
-const BoardMembersPage = () => {
+const Officers = () => {
   const boardMembers = [{
     name: 'Titus Loftin',
     role: 'Director',
@@ -78,4 +78,4 @@ const BoardMembersPage = () => {
       </div>
     </div>;
 };
-export default BoardMembersPage;
+export default Officers;
