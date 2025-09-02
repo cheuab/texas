@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg">
-            <img src="/uab.jpg" alt="UT Austin" className="w-full h-auto rounded-lg" />
+            <img src="/group.jpeg" alt="UT Austin" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </div>

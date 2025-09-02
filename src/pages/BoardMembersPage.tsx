@@ -5,37 +5,37 @@ const BoardMembersPage = () => {
     role: 'Director',
     year: 'Sophomore',
     bio: "",
-    image: ''
+    image: '/titus.jpeg'
   }, {
     name: 'Jai Kumaravel',
     role: 'Director',
     year: 'Sophomore',
     bio: '',
-    image: ''
+    image: '/jai.jpeg'
   }, {
     name: 'Radu Variu',
     role: 'Events Coordinator',
     year: 'Sophomore',
     bio: '',
-    image: ''
+    image: '/radu.jpeg'
   }, {
     name: 'Gabriel Jesurum',
     role: 'Officer of Finance',
     year: 'Junior',
     bio: '',
-    image: ''
+    image: '/gabriel.jpeg'
   }, {
     name: 'Rishita Jain',
     role: 'Communications Officer',
     year: 'Sophomore',
     bio: ".",
-    image: ''
+    image: '/rishita.jpeg'
   }, {
     name: 'Jad Issa',
     role: 'Outreach Coordinator',
     year: 'Sophomore',
     bio: '',
-    image: ''
+    image: '/jad.jpeg'
   }, {
     name: 'Junyan He',
     role: 'Outreach Coordinator',
@@ -47,7 +47,7 @@ const BoardMembersPage = () => {
     role: 'Creative Designer',
     year: 'Sophomore',
     bio: '',
-    image: ''
+    image: '/venus.jpeg'
   }];
   return <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-[#BF5700] mb-6">Board Members</h1>
@@ -58,13 +58,15 @@ const BoardMembersPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {boardMembers.map((member, index) => <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="w-full h-64 flex items-center justify-center bg-white">
-              {/* Clock SVG as a placeholder for 'coming soon' */}
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="32" cy="32" r="30" stroke="#BF5700" strokeWidth="4" fill="#FFF8F0" />
-                <circle cx="32" cy="32" r="3" fill="#BF5700" />
-                <rect x="30" y="18" width="4" height="18" rx="2" fill="#BF5700" />
-                <rect x="32" y="32" width="14" height="4" rx="2" fill="#BF5700" transform="rotate(45 32 32)" />
-              </svg>
+              {member.image ? (
+                <img 
+                  src={member.image} 
+                  alt={member.name} 
+                  className={`w-full h-full object-cover ${['Titus Loftin', 'Rishita Jain', 'Jad Issa', 'Junyan He', 'Venus Kumar'].includes(member.name) ? 'object-[center_75%]' : ''}`} 
+                />
+              ) : (
+                <div className="text-gray-500">No image available</div>
+              )}
             </div>
             <div className="p-6">
               <h2 className="text-xl font-bold text-gray-800">{member.name}</h2>
