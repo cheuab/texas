@@ -30,7 +30,7 @@ export function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/board-members" element={<Officers />} />
+            <Route path="/officers" element={<Officers />} />
             <Route path="/resources" element={<ResourcesPage />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/contact" element={<ContactPage />} />
