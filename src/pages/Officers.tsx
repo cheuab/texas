@@ -50,7 +50,7 @@ const Officers = () => {
     image: '/venus.jpeg'
   }];
   return <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-[#BF5700] mb-6">Board Members</h1>
+      <h1 className="text-3xl font-bold text-[#BF5700] mb-6">Officers</h1>
       <p className="text-gray-700 mb-8">
         Meet our dedicated team of undergraduate students who represent the
         Chemical Engineering student body at UT Austin.
