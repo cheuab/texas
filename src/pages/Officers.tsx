@@ -3,7 +3,7 @@ const Officers = () => {
   const boardMembers = [{
     name: 'Titus Loftin',
     role: 'Director',
-    year: 'Sophomore',
+    year: 'Junior',
     bio: "",
     image: '/titus.jpeg'
   }, {
