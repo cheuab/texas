@@ -38,10 +38,10 @@ const Officers = () => {
     image: '/jad.jpeg'
   }, {
     name: 'Junyan He',
-    role: 'Outreach Coordinator',
+    role: 'Recruiting Coordinator',
     year: 'Sophomore',
     bio: '',
-    image: ''
+    image: '/junyan.jpeg'
   }, {
     name: 'Venus Kumar',
     role: 'Creative Designer',
