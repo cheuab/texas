@@ -152,6 +152,7 @@ export const subjects = [
 					},
 					{
 						title: "Closed Systems",
+						path: "/lessons/Closed_Systems.pdf",
 						description: "Thermodynamics of closed systems."
 					},
 					{
