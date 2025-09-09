@@ -29,10 +29,10 @@ const ResourcesPage = () => {
     icon: <CalendarIcon className="w-8 h-8 text-[#BF5700]" />,
     resources: [{
       name: 'Upcoming Events',
-      link: '/pages/events'
+      link: '/events'
     }, {
       name: 'Latest News',
-      link: '/pages/news'
+      link: '/news'
     }, {
       name: 'Department Events',
       link: 'https://che.utexas.edu/events'
