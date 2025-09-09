@@ -32,10 +32,73 @@ const CalendarPage: React.FC = () => {
       description: 'Come learn about our plans for the semester and how to get involved, while enjoying Chick Fil A!'
     },
     {
-      date: '2025-09-02',
-      title: 'AICHE x UAB x OXE Study Nights',
-      location: 'TBD',
-      time: 'TBD',
+      date: '2025-09-16',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-09-23',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-10-07',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-10-14',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-10-21',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-10-28',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-11-04',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-11-11',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-11-18',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
+      description: 'Come study and meet new friends!'
+    },
+    {
+      date: '2025-09-30',
+      title: 'AICHE x UAB x OXE x UChEW Study Nights',
+      location: 'CPE 2.222',
+      time: '7-9 PM',
       description: 'Come study and meet new friends!'
     },
     {
@@ -135,7 +198,7 @@ const CalendarPage: React.FC = () => {
                   <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[#FFF8F0] mb-4 border-2 border-[#BF5700]">
                     <span className="text-[#BF5700] text-3xl font-bold">&#128197;</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-[#BF5700] mb-2">{event?.title || 'Event'}</h3>
+                  <h3 className="text-2xl font-bold text-[#BF5700] mb-2 text-center">{event?.title || 'Event'}</h3>
                   <div className="mb-2 text-gray-700 text-center">
                     <span className="font-semibold text-[#BF5700]">{modalDate.toDateString()}</span>
                   </div>
