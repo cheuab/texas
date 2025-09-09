@@ -23,7 +23,13 @@ const Textbooks = () => {
 					</h1>
 					<p className="text-gray-700 mb-6">
 						Browse available textbooks for Chemical Engineering courses. Search by
-						title, author, course, or description. If you need any of the textbooks, please send us an email.
+						title, author, course, or description. If you need any of the textbooks, please{" "}
+						<a 
+							href="mailto:cheuab@che.utexas.edu" 
+							className="text-[#BF5700] hover:underline"
+						>
+							send us an email
+						</a>.
 					</p>
 					<div className="mb-8">
 						<input
