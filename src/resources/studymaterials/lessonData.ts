@@ -157,6 +157,7 @@ export const subjects = [
 					},
 					{
 						title: "Open Systems",
+						path: "/lessons/Open_Systems.pdf",
 						description: "Thermodynamics of open systems."
 					},
 					{
