@@ -267,6 +267,7 @@ export const subjects = [
 					},
 					{
 						title: "Gaussian Elimination",
+						path: "/lessons/Gaussian_Elimination.pdf",
 						description: "Solving systems using Gaussian elimination."
 					},
 					{
