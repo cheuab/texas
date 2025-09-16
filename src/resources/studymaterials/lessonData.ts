@@ -161,6 +161,11 @@ export const subjects = [
 						description: "Thermodynamics of open systems."
 					},
 					{
+						title: "Thermodynamic Cycles",
+						path: "/lessons/Thermodynamic_Cycles.pdf",
+						description: "Understanding thermodynamic cycles, specifically Carnot cycles, and their applications."
+					},
+					{
 						title: "Second Law of Thermodynamics",
 						description: "Understanding the Second Law and its implications."
 					},
