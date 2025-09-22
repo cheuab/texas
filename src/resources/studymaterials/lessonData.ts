@@ -379,6 +379,7 @@ export const subjects = [
 					},
 					{
 						title: "Macroscopic Balances",
+						path:"/lessons/Macroscopic_Balances.pdf",
 						description: "Overview of macroscopic balances in transport processes."
 					},
 					{
