@@ -384,6 +384,7 @@ export const subjects = [
 					},
 					{
 						title: "Friction Losses",
+						path: "/lessons/Friction_Losses.pdf",
 						description: "Understanding friction losses in fluid flow."
 					},
 					{
