@@ -285,8 +285,9 @@ export const subjects = [
 						description: "Overview of iterative methods for solving equations."
 					},
 					{
-						title: "Systems of Nonlinear Equations (NLE)",
-						description: "Solving systems of nonlinear equations."
+						title: "Nonlinear Equations",
+						path: "/lessons/Nonlinear_Equations.pdf",
+						description: "Solving nonlinear equations."
 					},
 					{
 						title: "Initial Value Problems (IVP)",
