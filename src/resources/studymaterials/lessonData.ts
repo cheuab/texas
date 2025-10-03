@@ -281,8 +281,9 @@ export const subjects = [
 						description: "Matrix factorization using LU decomposition."
 					},
 					{
-						title: "Iterative Methods",
-						description: "Overview of iterative methods for solving equations."
+						title: "Finite Differences",
+						path: "/lessons/Finite_Differences.pdf",
+						description: "Overview of finite difference methods for solving equations."
 					},
 					{
 						title: "Nonlinear Equations",
