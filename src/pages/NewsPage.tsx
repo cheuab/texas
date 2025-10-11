@@ -6,6 +6,13 @@ const NewsPage = () => {
     summary: ' We hope that you all had a great start to your semester and have been having a good (and not too stressful) time in your classes! For the freshmen starting their journey at UT, we wish you the best of luck and hope that you make the most out of your first year on the Forty Acres!',
     image: '/lessons/CHEUAB Newsletter -September-.pdf',
     link: '/lessons/CHEUAB Newsletter -September-.pdf'
+  },
+  {
+    title: 'October Newsletter',
+    date: 'October 7th, 2025',
+    summary: 'We hope you all are doing well and are taking care of yourselves as we are in midterm season right now. This time of the year can be stressful, so be sure to take breaks and get lots of rest as you all study hard. Stay strong while we shift into the best part of the year and the temperature starts to (slowly) cool down. As October is beginning, we wanted to share our newsletter for this month, that covers upcoming events we and other ChemE orgs will be hosting! Be sure to check it out, and attend our events for resources and a chance to meet your ChemE peers!',
+    image: '/lessons/October Newsletter.png',
+    link: '/lessons/October Newsletter.png'
   },];
   return <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-[#BF5700] mb-6">
